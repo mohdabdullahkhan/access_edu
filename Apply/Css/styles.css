@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headder{
+    background-color:#011828;
+    width: 100%;
+}
+ .logo{
+     font-weight: 400px;
+     font-size: 55px;
+     color: white;
+     font-family: 'Comfortaa';
+     padding: 10px 0 10px 80px;
+ }
+.logo_{
+    color: red;
+ }
+ .headder_logo{
+     display: flex;
+     justify-content: left;
+ }
+ .headder_clicks{
+     display: flex;
+     justify-content:right;
+     justify-content:space-evenly;
+ }
+ .clicks{
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    color: white;
+ }
+
+.apply_button{
+    background-color:  #FD5F3C;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Comfortaa';
+}
+
+.bg-image{
+    background-image: url("/Apply/images/Rectangle\ 3.png");
+    height: 400px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textOne{
+    font-size: 55px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.textTwo{
+    font-size: 55px;
+    color: white;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+/* complete css of header part */
+
+/* css of how to apply part */
+
+.headdind-text{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    margin: 35px 0 40px 110px;
+}
+
+.Apply-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texts{
+   text-align: center;
+   line-height:24.18px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+}
+.text-1{
+    margin-bottom: 15px;
+}
+
+.text-2{
+    color: blue;
+}
+
+.Consultation-image{
+    margin-left: 20px;
+}
+.skills-image{
+    margin-left: 60px;
+}
