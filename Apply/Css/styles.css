@@ -78,9 +78,18 @@
     margin: 35px 0 40px 110px;
 }
 
-.Apply-section{
+.Apply-sections{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.apply-section-one{
+    margin-left: 150px;
+}
+.apply-section-three{
+    margin-right: 100px;
+}
+.apply-section-two{
+    margin-left: 30px;
 }
 
 .texts{
@@ -103,4 +112,15 @@
 }
 .skills-image{
     margin-left: 60px;
+}
+
+/*  end css of how to apply  */
+
+
+/* starting css of enrollment process */
+
+.headding-text-two{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }
