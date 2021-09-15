@@ -218,12 +218,61 @@
     font-size: 14px;
 }
 
+/* course ad-ons section */
 
+.course-ad-ons{
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+.course-heading h3{
+    font-family: 'Raleway';
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding: 30px 0 20px 100px;
+    text-transform: capitalize;
+}
+.course-section{
+    display: flex;
+    justify-content: space-around;
+}
+.course p{
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+.course .surprises{
+    text-transform: lowercase;
+}
+.career{
+    height: 45px;
+    width: 200px;
+    background-color: #FD5F3C;
+    border: 1px solid #FD5F3C;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 14px;
+    margin-top: 70px;
+    margin-right: 110px;
+}
+.course-img img{
+    height: 200px;
+    width: 200px;
+    margin-top: -60px;
+}
 
+/* feedback section */
 
-
-
-
+.feedback{
+    background-color: #16649f;
+    height: 800px;
+    width: 100%;
+}
 
 
 
