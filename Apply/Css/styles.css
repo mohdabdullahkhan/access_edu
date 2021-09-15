@@ -1,8 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 /* .headder{
@@ -45,199 +45,205 @@
     font-family: 'Comfortaa';
 } */
 
-.bg-image{
-    background-image: url("/Apply/images/Rectangle\ 3.png");
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bg-image {
+  background-image: url("/Apply/images/Rectangle\ 3.png");
+  height: 350px;
+  max-height: 600px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.textOne{
-    word-spacing: 2px;
-    font-size: 40px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    margin-bottom: 10px;
+
+.textOne {
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-.textTwo{
-    word-spacing: 2px;
-    font-size: 40px;
-    color: white;
-    margin-left: 40px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-} 
+.textTwo {
+  word-spacing: 2px;
+  font-size: 40px;
+  color: white;
+  margin-left: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
 /* complete css of header part */
 
 /* css of how to apply part */
 
-.headdind-text{
-    font-size: 48px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    padding: 35px 0 40px 110px;
+.headdind-text {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  padding: 35px 0 40px 110px;
 }
 
-.Apply-sections{
-    display: flex;
-    justify-content: space-between;
+.Apply-sections {
+  display: flex;
+  justify-content: space-between;
 }
-.apply-section-one{
-    margin-left: 150px;
+.apply-section-one {
+  margin-left: 150px;
 }
-.apply-image{
-    margin-bottom: 20px;
+.apply-image {
+  margin-bottom: 20px;
 }
-.apply-section-three{
-    margin-right: 100px;
+.apply-section-three {
+  margin-right: 100px;
 }
-.apply-section-two{
-    margin-left: 30px;
-}
-
-.texts{
-   text-align: center;
-   line-height:24.18px;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 500;
-   font-size: 20px;
-}
-.text-1{
-    margin-bottom: 15px;
+.apply-section-two {
+  margin-left: 30px;
 }
 
-.text-2{
-    color: #0075AE;
+.texts {
+  text-align: center;
+  line-height: 24.18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.text-1 {
+  margin-bottom: 15px;
 }
 
-.Consultation-image{
-    margin-left: 20px;
-    margin-bottom: 20px;
+.text-2 {
+  color: #0075ae;
 }
-.skills-image{
-    margin-left: 60px;
-    margin-bottom: 20px;
+
+.Consultation-image {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-.bg-image2{
-    background-image: url("/Apply/images/Rectangle\ 403.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:500px ;
+.skills-image {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.bg-image2 {
+  background-image: url("/Apply/images/Rectangle\ 403.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 
 /*  end css of how to apply  */
 
-
 /* starting css of enrollment process */
 
-.headding-text-two{
-    font-size: 48px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    padding: 35px 0 40px 110px;
+.headding-text-two {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  padding: 35px 0 40px 110px;
 }
 
-.enrollment-section{
-    display: flex;
+.enrollment-section {
+  display: flex;
+  margin: 0 15px;
 }
 
-.enrollment-image{
-    height: 550px;
-    margin-left: 60px;
+.enrollment-image {
+  height: 550px;
+  margin-left: 60px;
 }
-.demo-text{
-    margin-bottom: 30px;
-    margin-top: 20px;
-    margin-left: 50px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #FD5F3C;
-    font-family: 'Raleway', sans-serif;
+.demo-text {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fd5f3c;
+  font-family: "Raleway", sans-serif;
 }
-.demo-text-description{
-    margin-left: 50px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    max-width: 800px;
+.demo-text-description {
+  margin-left: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 800px;
 }
-.secure-text{
-    margin-bottom: 30px;
-    margin-top: 100px;
-    margin-left: 50px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #FD5F3C;
-    font-family: 'Raleway', sans-serif;
+.secure-text {
+  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fd5f3c;
+  font-family: "Raleway", sans-serif;
 }
-.secure-text-description{
-    margin-left: 50px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    max-width: 800px;
+.secure-text-description {
+  margin-left: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 800px;
 }
-.onboarding-text{
-    margin-bottom: 30px;
-    margin-top: 105px;
-    margin-left: 50px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #FD5F3C;
-    font-family: 'Raleway', sans-serif; 
+.onboarding-text {
+  margin-bottom: 30px;
+  margin-top: 105px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fd5f3c;
+  font-family: "Raleway", sans-serif;
 }
-.onboarding-text-description{
-    margin-left: 50px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 25px;
-    max-width: 800px;
+.onboarding-text-description {
+  margin-left: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 800px;
 }
 
 /* end css of enrollment section */
 
 /* start css of questions section */
 
-.bg-color{
-    margin-top: 30px;
-    background-image: url("/Apply/images/Rectangle\ 19.png");
-    height: 373px;
+.bg-color {
+  margin-top: 30px;
+  background-image: url("/Apply/images/Rectangle\ 19.png");
+  height: 373px;
 }
-.questions-text{
-    padding: 40px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 44px;
-    font-weight: 400;
-    color:rgba(255, 255, 255, 1);
-    text-align: center;
+.questions-text {
+  padding: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
-.question-discription{
-    text-align: center;
-    color:rgba(255, 255, 255, 1);
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 40px;
+.question-discription {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 40px;
 }
 
-.apply-button{
-    margin-top: 40px;
-    background-color:  #FD5F3C;
-    border: none;
-    border-radius: 50px;
-    width:236px;
-    height: 50px;
-    font-size: 24px;
-    color: white;
-    font-family: 'Comfortaa';
-    text-align: center;
-} 
+.apply-button {
+  margin-top: 40px;
+  background-color: #fd5f3c;
+  border: none;
+  border-radius: 50px;
+  width: 236px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  font-family: "Comfortaa";
+  text-align: center;
+}
 
-.button-section{
-    display: flex;
+.button-section {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -246,63 +252,78 @@
 
 /* start css of contact us section */
 
-.contact-us-section{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
+.contact-us-section {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
 }
 
-.bg-color2{
-    background-color:rgba(1, 24, 40, 1);
-    height: 347px;
+.bg-color2 {
+  background-color: rgba(1, 24, 40, 1);
+  height: 347px;
 }
-.contact-us-section-1{
-    font-family: 'Raleway', sans-serif;
-    color:rgba(227, 227, 227, 1);
-    line-height: 45px;
-    font-size: 18px;
-}
-
-.contact-us-section-2{
-    font-family: 'Raleway', sans-serif;
-    color:rgba(227, 227, 227, 1);
-    line-height: 45px;
-    font-size: 18px;
-}
-.follow-text{
-    font-family: 'Raleway', sans-serif;
-    color:rgba(227, 227, 227, 1);
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.instagram-image{
-    width: 25px;
-    height:25px;
-    margin-right: 25px;
-}
-.linkdin-image{
-    width: 25px;
-    height:25px;
-    margin-right:25px; 
-}
-.twitter-image{
-    width: 25px;
-    height:25px;
+.contact-us-section-1 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  line-height: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
-.last-text{
-    color: white;
-    text-align: center;
-    padding-top: 40px;
-    font-family: 'Raleway', sans-serif;
+.contact-us-section-2 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  line-height: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.follow-text {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.instagram-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+.linkdin-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+.twitter-image {
+  width: 25px;
+  height: 25px;
 }
 
-.access-text1{
-    font-family: 'Comfortaa';
+.last-text {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Raleway", sans-serif;
 }
 
-.access-text2{
-    color: red;
-    font-family: 'Comfortaa';
-    margin-right: 6px;
+.access-text1 {
+  font-family: "Comfortaa";
+}
+
+.access-text2 {
+  color: #fd5f3c;
+  font-family: "Comfortaa";
+  margin-right: 6px;
+  margin-left: -5px;
+  font-weight: 300;
+}
+
+@media (min-width: 1440px) {
+  .bg-image {
+    height: 550px;
+    max-height: 700px;
+  }
 }
