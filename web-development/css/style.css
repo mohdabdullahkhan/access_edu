@@ -15,6 +15,7 @@
 }
 .heading{
     text-align: center;
+    font-family: 'Raleway';
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
@@ -28,6 +29,7 @@
 }
 .heading p{
     text-transform: uppercase;
+    font-family: 'Libre Franklin';
     font-size: 1.3rem;
     padding-top: 30px;
 }
@@ -61,13 +63,14 @@
 .online{
     padding-right: 30px;
 }
-/* .line{
+.line{
     height: 2px;
     width: 120px;
     background-color: #16649f;
-    margin-left: 88%;
-    /* float: left;  
- } */
+    float: right;
+    margin-top: -9px;
+    margin: -9px 30px 0 0;
+ }
 
 
  /* container section */
@@ -172,7 +175,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 500px;
+    height: 470px;
 }
 .heading-text{
     font-size: 2.2rem;
@@ -205,13 +208,18 @@
     font-weight: 400;
     font-size: 15px;
 }
+.apply-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .apply-here{
     height: 45px;
     width: 200px;
     background-color: #FD5F3C;
     border: 1px solid #FD5F3C;
     border-radius: 30px;
-    margin: 40px 0 0 600px;
+    margin-top: 25px;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Raleway';
@@ -224,7 +232,7 @@
     background-color: #F4F4F4;
     width: 100%;
     height: 250px;
-    position: absolute;
+    position: relative;
 }
 .course-heading h3{
     font-family: 'Raleway';
@@ -258,7 +266,7 @@
     font-family: 'Raleway';
     font-size: 14px;
     margin-top: 70px;
-    margin-right: 110px;
+    margin-right: 90px;
 }
 .course-img img{
     height: 200px;
@@ -269,12 +277,123 @@
 /* feedback section */
 
 .feedback{
-    background-color: #16649f;
-    height: 800px;
+    height: 600px;
     width: 100%;
+    background-color: #16649f;
+    position: relative;
+}
+.feedback img{
+    text-align: center;
+}
+
+
+/* companies section */
+
+.companies{
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+}
+.companies h1{
+    font-size: 2.4rem;
+    font-family: 'Raleway';
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.companies-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fynsis{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+.aiknowlogo{
+    height: 100px;
+    width: 180px;
+    position: relative;
+    
+}
+.simplelogo{
+    height: 60px;
+    width: 230px;
+    position: relative;
+}
+
+.nexusinfo{
+   height: 90px;
+   width: 190px;
+   position: relative;
 }
 
 
 
 
+
+
+
+/* media queries */
+
+@media(max-width: 1024px){
+    .web-development{
+        width: 120%;
+        height: 350px;
+   }
+   .container{
+    width: 110%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.dev-school {
+    width: 120%;
+  }
+  .dev-school h1 {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .learn {
+    height: 430px;
+}
+  .will-you-learn p{
+    padding-left: 90px;
+    max-width: 690px;
+ }
+  .image img{
+    height: 400px;
+    width: 500px;
+    margin-left: 120px;
+}
+.Apply-section{
+    width: 120%;
+    height: 460px;
+}
+.apply-here{
+    margin-top: 15px;
+}
+.course-ad-ons{
+    width: 120%;
+    height: 240px;
+}
+.feedback{
+    width: 120%;
+}
+
+
+
+
+
+
+.companies{
+    height: 300px;
+    width: 120%;
+}
+}
 
