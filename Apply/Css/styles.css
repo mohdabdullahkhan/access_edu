@@ -326,4 +326,12 @@
     height: 550px;
     max-height: 700px;
   }
+  .textOne {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+  .textTwo {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
 }
