@@ -49,6 +49,7 @@ body{
 
 
 
+
 @media only screen and (min-width:768px){
 
 
@@ -206,7 +207,7 @@ text-align: center;
 background-repeat: no-repeat;
 background-position: center center;
 background-size: 100% 100%;
-height: 534px; 
+height: 574px; 
  max-height: 600px;
 
 
@@ -269,6 +270,8 @@ color: #011728;
 /* height: 20px; */
 display: block;
 text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
 
 font-family: Raleway;
 font-style: normal;
@@ -282,6 +285,10 @@ color: #FD5F3C;
 .community p{
 /* height: 60px; */
 /* padding:10px; */
+margin-left: 20px;
+margin-right: 20px;
+letter-spacing: 0.0920486px;
+
 
 
 font-family: Raleway;
@@ -340,6 +347,8 @@ color: #011728;
 /* height: 20px; */
 display: block;
 text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
 
 
 font-family: Raleway;
@@ -358,6 +367,9 @@ color: #FD5F3C;
 
 .career p{
 /* height: 45px; */
+margin-left: 20px;
+margin-right: 20px;
+letter-spacing: 0.0920486px;
 
 font-family: Raleway;
 font-style: normal;
@@ -414,6 +426,8 @@ font-size: 10px;
 
 .real span{
 /* height: 20px; */
+margin-top: 10px;
+margin-bottom: 10px;
 
 font-family: Raleway;
 font-style: normal;
@@ -433,6 +447,9 @@ color: #FD5F3C;
 
 
 .real p{
+    margin-left: 20px;
+margin-right: 20px;
+letter-spacing: 0.0920486px;
 
 font-family: Raleway;
 font-style: normal;
@@ -469,64 +486,53 @@ color: #011728;
 
 
 .course-layout{
+
     position: relative;
 }
 
 .course-layout span{
-    
-
     height: 14.79px;
     display: block;
     text-align: center;
-    margin-top: 25px;
-    
+    margin-top: 25px; 
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 15px;
-    /* identical to box height, or 82% */
-    
-    /* Primary Blue */
-    
+    line-height: 15px; 
     color: #011728; 
 }
 
 
 .course-layout p{
 height: 34px;
-padding: 25px;
+padding: 20px;
 
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-/* or 123% */
 display: block;
 text-align: center;
-
-/* Primary Blue */
-
 color: #011728;
 }
 
 .course-layout ul  {
-padding: 25px;
 
+margin-left: 20px;
+margin-right: 20px;
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 13px;
 line-height: 15px;
-/* or 125% */
-
-
-/* Primary Blue */
-
 color: #011728;
-
 list-style: none; 
+}
+
+.course-layout ul li {
+    padding-left: 10px;
 }
 
 .bullets ul{
@@ -537,7 +543,6 @@ list-style: none;
     /* width: 12px;
     height: 12px; */
     
-    margin-left: 1em;
     display:block;
     line-height:20px;
     
@@ -546,13 +551,13 @@ list-style: none;
 
 
 .course-layout input, select{
-width: 250px;
+width: 320px;
 height: 35px;
-padding-left: 25px;
+padding-left: 20px;
 display: block;
-margin-top: 25px;
+margin-top: 5px;
 margin-bottom: 25px;
-margin-left: auto;
+margin-left: 20px;
 margin-right: auto;
 border: none;
 
@@ -617,33 +622,43 @@ color: #FFFFFF;
     margin-top: 25px;
     font-size: 30px;
 line-height: 30px;
-
 }
 
 
 .course-layout p{
- padding: 0px;
- margin: 40px 40px 0px 40px; 
+ padding: 25px;
+ margin-left: 25px;
 font-size: 12px;
 line-height: 15px; 
 }
 
-.course-layout ul  {
-padding: 0px 25px 25px 25px;
-font-size: 12px;
-line-height: 45px; 
-}
+
 
 .bullets ul{
     list-style-image: url(/homepage/images/Ellipse\ 2.png);
     background-size: auto;
     background-repeat: no-repeat;
-    padding: 40px 40px 40px 40px;
-    margin-left: 1em;
-    line-height:30px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
     
+font-size: 12px;
+line-height: 20px; 
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+color: #011728;
+/* list-style: none;  */
+}
+.bullets ul li{
+    padding-left: 10px;
 
 }
+
+
+
+    
+   
 
 
 .course-layout input, select{
@@ -742,6 +757,8 @@ line-height: 29px;
 .online p{ 
 
  text-align: center;
+ margin-left: 20px;
+ margin-right: 20px;
 
 font-family: Raleway;
 font-style: normal;
@@ -751,53 +768,61 @@ line-height: 15px;
 color: #011728;
 } 
 
- .online ul{
 
-display: block;
-padding: 25px;
+.online ul  {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #011728;
+    list-style: none; 
+    }
+    
+    .online ul li {
+        padding-left: 10px;
+    }
+    
+    .online ul{
+        list-style-image: url(/homepage/images/circle-check.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 20px;
+        display:block;
+        line-height:20px;
+    }
+    
 
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px; 
-color : #011728;
-list-style : none;
-}
 
-.online ul li::before {
-    content: "\2022";
-    color: #FD5F3C;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-} 
+
+
 
 .online-text p{ 
-    text-align: center;
+    text-align: left;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 25px;
      color: #011728;
-     margin-left: auto;
+     margin-left: 20px;
      margin-right: auto;
     } 
 
 
     .online button{
         
-width: 146.32px;
+width: 160px;
 height: 31px;
 background: #FD5F3C;
 border-radius: 18.6px;
 border: none;
 margin-left: auto;
 margin-right: auto;
-margin-top: 20px;
-margin-bottom: 10px;
+margin-top: 10px;
+margin-bottom: 20px;
 display: block;
     }
 
@@ -834,7 +859,7 @@ color: #FFFFFF;
     height: 332.15px; 
      max-height: 600px;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: space-between;
 
 }
 .flex2 img{
@@ -871,28 +896,35 @@ line-height: 15px;
 color: #011728;
 } 
 
- .online ul{
 
-display: block;
-/* padding: 25px; */
-margin-left: 30px;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 15px; 
-color : #011728;
-list-style : none;
-}
 
-.online ul li::before {
-    content: "\2022";
-    color: #FD5F3C;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-} 
+.online ul  {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #011728;
+    list-style: none; 
+    }
+    
+    .online ul li {
+        padding-left: 10px;
+    }
+    
+    .online ul{
+        list-style-image: url(/homepage/images/circle-check.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin-left: 20px;
+        display:block;
+        line-height:20px;
+    }
+    
+
 
 .online-text p{ 
     text-align:  left;
@@ -907,7 +939,7 @@ list-style : none;
     } 
 
 
-    .online button{
+ .online button{
         
 width: 146.32px;
 height: 31px;
@@ -915,9 +947,9 @@ background: #FD5F3C;
 border-radius: 18.6px;
 border: none;
 margin-left: 30px;
-margin-right: auto;
+margin-right: 30px;
 margin-top: 20px;
-margin-bottom: 10px;
+margin-bottom: 5px;
 display: block;
     }
 
@@ -940,7 +972,10 @@ color: #FFFFFF;
 
     }
 
-
+.covid{
+    width: 100%;
+    height: 80px;
+}
 
    .covid p{
 font-family: Raleway;
@@ -951,8 +986,10 @@ line-height: 30px;
 
 display: block;
 text-align: center;
-margin-left: 10px;
-margin-right: 10px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: auto;
+margin-top: -px;
 
 color: #011728;
     
@@ -1162,6 +1199,8 @@ color: #011728;
  height: 150px;
  width: 150px;
  display: flex;
+ margin-right: 10px;
+ 
    }
 
 .text-container p{
@@ -1174,6 +1213,7 @@ margin-top: px;
 display: block;
 text-align: left;
 color: #011728;
+margin-right: 20px;
 
 
 }
@@ -1395,6 +1435,7 @@ font-size: 12px;
 line-height: 13px;
 letter-spacing: 0.0920486px;
 color: #011728;
+text-align: left;
 }
 
 
@@ -1533,8 +1574,8 @@ padding-bottom: 20px;
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 13px;
-line-height: 15px;
+font-size: 12px;
+line-height: 18px;
 /* or 125% */
 
 
