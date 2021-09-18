@@ -6,286 +6,285 @@
 
 /* banner section */
 
-.web-development{
-    background-image: url(../images/Rectangle\ 3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    position: relative;
+.web-development {
+  background-image: url(../images/Rectangle\ 3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  position: relative;
 }
-.heading{
-    text-align: center;
-    font-family: 'Raleway';
-    /* top: 50%;
+.heading {
+  text-align: center;
+  font-family: "Raleway";
+  /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
-    color: #fff;
-    /* position: absolute; */
+  color: #fff;
+  /* position: absolute; */
 }
-.heading h2{
-    text-transform: capitalize;
-    font-size: 2.5rem;
-    padding-top: 130px;
+.heading h2 {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  padding-top: 130px;
 }
-.heading p{
-    text-transform: uppercase;
-    font-family: 'Libre Franklin';
-    font-size: 1.3rem;
-    padding-top: 30px;
+.heading p {
+  text-transform: uppercase;
+  font-family: "Libre Franklin";
+  font-size: 1.3rem;
+  padding-top: 30px;
 }
 
 /* access section */
 
-.container{
-    background-color: #fff;
-    box-shadow: 16px 16px 50px rgba(255, 95, 63, 0.25);
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 30px;
-    position: relative;
-
+.container {
+  background-color: #fff;
+  box-shadow: 16px 16px 50px rgba(255, 95, 63, 0.25);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  position: relative;
 }
-.development{
-    padding: 10px 0 10px 0;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    border-top: 10px solid #16649f;
-    box-shadow: 0 4px 4px rgba(255, 95, 63, 0.25);
+.development {
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-top: 10px solid #16649f;
+  box-shadow: 0 4px 4px rgba(255, 95, 63, 0.25);
 }
-.development p{
-    font-size: 16px;
+.development p {
+  font-size: 16px;
 }
-.access{
-    padding-left: 30px;
+.access {
+  padding-left: 30px;
 }
-.access span{
-    font-size: 12px;
+.access span {
+  font-size: 12px;
 }
-.online{
-    padding-right: 30px;
+.online {
+  padding-right: 30px;
 }
-.line{
-    height: 2px;
-    width: 120px;
-    background-color: #16649f;
-    float: right;
-    margin-top: -9px;
-    margin: -9px 30px 0 0;
- }
-
-
- /* container section */
-
- .container1{
-    margin: 10px 0 20px 0;
-    display: flex;
-    justify-content: space-around;
+.line {
+  height: 2px;
+  width: 120px;
+  background-color: #16649f;
+  float: right;
+  margin-top: -9px;
+  margin: -9px 30px 0 0;
 }
 
- .container1 h5{
-    color: #16649f;
-    font-size: 16px;
-    font-family: 'Raleway';
-    font-weight: 600;
-    padding: 20px 0 20px 0;
+/* container section */
+
+.container1 {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
 }
-.container1 p{
-    padding-bottom: 5px;
-    font-family: 'Libre Franklin';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+
+.container1 h5 {
+  color: #16649f;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: 600;
+  padding: 20px 0 20px 0;
 }
-.part-time ,.skills h5{
-    text-transform: uppercase;
+.container1 p {
+  padding-bottom: 5px;
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
-.courses{
-    text-transform: capitalize;
+.part-time,
+.skills h5 {
+  text-transform: uppercase;
 }
-.courses p span{
-    color: #16649f;
-    font-weight: 600;
+.courses {
+  text-transform: capitalize;
 }
-.skills h3{
-    color: #16649f;
-    padding: 30px 0 30px 0;
-    text-transform: capitalize;
+.courses p span {
+  color: #16649f;
+  font-weight: 600;
+}
+.skills h3 {
+  color: #16649f;
+  padding: 30px 0 30px 0;
+  text-transform: capitalize;
 }
 
 /* dev-school section */
 
 .dev-school {
-    height: 200px;
-    width: 100%;
-    background: linear-gradient(
-      91.01deg,
-      #16649f -3.55%,
-      rgba(22, 100, 159, 0.5) 105.87%
-    );
-    margin-top: 10px;
-    position: relative;
-  }
-  .dev-school h1 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    color: #fff;
-    font-family: "Libre Franklin";
-    text-align: center;
-    max-width: 50%;
-    margin: 0 auto;
-    padding-top: 40px;
-    line-height: 60px;
-  }
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(
+    91.01deg,
+    #16649f -3.55%,
+    rgba(22, 100, 159, 0.5) 105.87%
+  );
+  margin-top: 10px;
+  position: relative;
+}
+.dev-school h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: "Libre Franklin";
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+  padding-top: 40px;
+  line-height: 60px;
+}
 
 /* will you learn section */
 
 .learn {
-    display: flex;
-    width: 100%;
-    height: 480px;
-    font-family: 'Raleway';
+  display: flex;
+  width: 100%;
+  height: 480px;
+  font-family: "Raleway";
 }
 .will-you-learn {
-     width: 55%;
+  width: 55%;
 }
-.will-you-learn h2{
-   padding: 80px 0 80px 90px;
-   font-size: 2.2rem;
-   font-weight: 400;
+.will-you-learn h2 {
+  padding: 80px 0 80px 90px;
+  font-size: 2.2rem;
+  font-weight: 400;
 }
-.will-you-learn p{
-   padding-left: 70px;
-   max-width: 650px;
-   line-height: 25px;
+.will-you-learn p {
+  padding-left: 70px;
+  max-width: 650px;
+  line-height: 25px;
 }
- .paragraph1 {
-   margin: -35px 0 30px 0;
- }
+.paragraph1 {
+  margin: -35px 0 30px 0;
+}
 .image {
- width: 45%;
-} 
-.image img{
-    padding-top: 30px;
+  width: 45%;
+}
+.image img {
+  padding-top: 30px;
 }
 
 /* apply section */
 
-.Apply-section{
-    background-image: url(../images/Rectangle\ 403.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 470px;
+.Apply-section {
+  background-image: url(../images/Rectangle\ 403.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 470px;
 }
-.heading-text{
-    font-size: 2.2rem;
-    font-family: 'Raleway';
-    padding: 40px 0 0 70px;
-    font-weight: 400;
+.heading-text {
+  font-size: 2.2rem;
+  font-family: "Raleway";
+  padding: 40px 0 0 70px;
+  font-weight: 400;
 }
-.apply{
-    display: flex;
-    justify-content: space-around;
-    margin: 30px 0 30px 0;
+.apply {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 30px 0;
 }
-.text-1{
-    text-align: center;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 20px;
+.text-1 {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 20px;
 }
-.text-2{
-    color: #16649f;
-    text-align: center;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 16px;
-    margin: 5px 0 3px 0;
+.text-2 {
+  color: #16649f;
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px 0 3px 0;
 }
-.apply p{
-    text-align: center;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 15px;
+.apply p {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 15px;
 }
-.apply-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.apply-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.apply-here{
-    height: 45px;
-    width: 200px;
-    background-color: #FD5F3C;
-    border: 1px solid #FD5F3C;
-    border-radius: 30px;
-    margin-top: 25px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Raleway';
-    font-size: 14px;
+.apply-here {
+  height: 45px;
+  width: 200px;
+  background-color: #fd5f3c;
+  border: 1px solid #fd5f3c;
+  border-radius: 30px;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-size: 14px;
 }
 
 /* course ad-ons section */
 
-.course-ad-ons{
-    background-color: #F4F4F4;
-    width: 100%;
-    height: 250px;
-    position: relative;
+.course-ad-ons {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 250px;
+  position: relative;
 }
-.course-heading h3{
-    font-family: 'Raleway';
-    font-size: 2.2rem;
-    font-weight: 400;
-    padding: 30px 0 20px 100px;
-    text-transform: capitalize;
+.course-heading h3 {
+  font-family: "Raleway";
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding: 30px 0 20px 100px;
+  text-transform: capitalize;
 }
-.course-section{
-    display: flex;
-    justify-content: space-around;
+.course-section {
+  display: flex;
+  justify-content: space-around;
 }
-.course p{
-    font-family: 'Raleway';
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 25px;
+.course p {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 25px;
 }
-.course .surprises{
-    text-transform: lowercase;
+.course .surprises {
+  text-transform: lowercase;
 }
-.career{
-    height: 45px;
-    width: 200px;
-    background-color: #FD5F3C;
-    border: 1px solid #FD5F3C;
-    border-radius: 30px;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: 'Raleway';
-    font-size: 14px;
-    margin-top: 70px;
-    margin-right: 90px;
+.career {
+  height: 45px;
+  width: 200px;
+  background-color: #fd5f3c;
+  border: 1px solid #fd5f3c;
+  border-radius: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-size: 14px;
+  margin-top: 70px;
+  margin-right: 90px;
 }
-.course-img img{
-    height: 200px;
-    width: 200px;
-    margin-top: -60px;
+.course-img img {
+  height: 200px;
+  width: 200px;
+  margin-top: -60px;
 }
 
 /* feedback section */
 
-.feedback{
-    height: 700px;
-    width: 100%;
-    background-color: #16649f;
-    position: relative;
-    display: flex;
-    justify-content: center;
+.feedback {
+  height: 700px;
+  width: 100%;
+  background-color: #16649f;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 /* .feedback-img img{
     height: 200px;
@@ -293,127 +292,118 @@
     margin-top: 30px;
     position: absolute;
 } */
-.card{
-    display: block;
-    justify-content: center;
-    width: 550px;
-    height: 550px;
-    background-color: #fff;
-    border-radius: 50px;
-    box-shadow: 0px 0px 16px #FF5F3F;
-    position: absolute;
-    margin-top: 110px;
+.card {
+  display: block;
+  justify-content: center;
+  width: 550px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 0px 16px #ff5f3f;
+  position: absolute;
+  margin-top: 110px;
 }
-.card-image{
-    display: flex;
-    justify-content: center;
+.card-image {
+  display: flex;
+  justify-content: center;
 }
-.card-image img{
-    height: 200px;
-    width: 200px;
-    margin-top: -50px;
-    /* position: absolute; */
+.card-image img {
+  height: 200px;
+  width: 200px;
+  margin-top: -50px;
+  /* position: absolute; */
 }
-.text{
-    display: block;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Raleway';
-    font-size: 18px;
+.text {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Raleway";
+  font-size: 18px;
 }
-.text h3{
-    font-weight: 800;
-    padding-bottom: 8px;
+.text h3 {
+  font-weight: 800;
+  padding-bottom: 8px;
 }
-.text p{
-    font-weight: 400;
+.text p {
+  font-weight: 400;
 }
-.colon{
-    font-size: 60px;
-    color: #FD5F3C;
-    margin-left: 30px;
+.colon {
+  font-size: 60px;
+  color: #fd5f3c;
+  margin-left: 30px;
 }
-.content{
-    margin-top: 20px;
+.content {
+  margin-top: 20px;
 }
-.content p{
-    text-align: center;
-    font-family: 'Raleway';
-    font-size: 18px;
-    line-height: 30px;
-    max-width: 500px;
-    margin: 0 auto;
-
+.content p {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 500px;
+  margin: 0 auto;
 }
-
 
 /* companies section */
 
-.companies{
-    height: 300px;
-    width: 100%;
-    background-color: #fff;
+.companies {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
 }
-.companies h1{
-    font-size: 2.4rem;
-    font-family: 'Raleway';
-    text-align: center;
-    line-height: 50px;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding-top: 20px;
-    max-width: 600px;
-    margin: 0 auto;
+.companies h1 {
+  font-size: 2.4rem;
+  font-family: "Raleway";
+  text-align: center;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
-.companies-logo{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.companies-logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.fynsis{
-    height: 150px;
-    width: 150px;
-    position: relative;
+.fynsis {
+  height: 150px;
+  width: 150px;
+  position: relative;
 }
-.aiknowlogo{
-    height: 100px;
-    width: 180px;
-    position: relative;
-    
+.aiknowlogo {
+  height: 100px;
+  width: 180px;
+  position: relative;
 }
-.simplelogo{
-    height: 60px;
-    width: 230px;
-    position: relative;
-}
-
-.nexusinfo{
-   height: 90px;
-   width: 190px;
-   position: relative;
+.simplelogo {
+  height: 60px;
+  width: 230px;
+  position: relative;
 }
 
-
-
-
-
-
+.nexusinfo {
+  height: 90px;
+  width: 190px;
+  position: relative;
+}
 
 /* media queries */
 
-@media(max-width: 1024px){
-    .web-development{
-        width: 120%;
-        height: 350px;
-        /* position: fixed; */
-   }
-   .container{
+@media (max-width: 1024px) {
+  .web-development {
+    width: 120%;
+    height: 350px;
+    /* position: fixed; */
+  }
+  .container {
     width: 110%;
     margin: 0 auto;
     margin-top: 30px;
     margin-left: 50px;
-}
-.dev-school {
+  }
+  .dev-school {
     width: 120%;
   }
   .dev-school h1 {
@@ -422,45 +412,33 @@
   }
   .learn {
     height: 430px;
-}
-  .will-you-learn p{
+  }
+  .will-you-learn p {
     padding-left: 90px;
     max-width: 690px;
- }
-  .image img{
+  }
+  .image img {
     height: 400px;
     width: 500px;
     margin-left: 120px;
-}
-.Apply-section{
+  }
+  .Apply-section {
     width: 120%;
     height: 460px;
-}
-.apply-here{
+  }
+  .apply-here {
     margin-top: 15px;
-}
-.course-ad-ons{
+  }
+  .course-ad-ons {
     width: 120%;
     height: 240px;
-}
-.feedback{
+  }
+  .feedback {
     width: 120%;
-}
+  }
 
-
-
-
-
-
-.companies{
+  .companies {
     height: 300px;
     width: 120%;
-}
-}
-
-@media(min-width: 470px){
-    .web-development{
-        height: 300px;
-        /* position: absolute; */
-    }
+  }
 }
