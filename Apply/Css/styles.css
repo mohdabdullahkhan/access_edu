@@ -56,6 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .textOne {
@@ -254,7 +255,8 @@
 
 .contact-us-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0px 55px;
   padding-top: 40px;
 }
 
@@ -321,6 +323,12 @@
   margin-left: -5px;
   font-weight: 300;
 }
+@media (max-width: 1024px) {
+    .bg-image {
+        height: 350px;
+        max-height: 300px;
+      /* position: fixed; */
+    }
 
 @media (min-width: 1440px) {
   .bg-image {
@@ -337,6 +345,6 @@
   }
 
   .contact-us-section-1 {
-      margin-left: -200px;
+      margin-left: -250px;
   }
 }
