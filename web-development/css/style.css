@@ -25,7 +25,7 @@
 }
 .heading h2{
     text-transform: capitalize;
-    font-size: 2.5rem;
+    font-size: 40px;
     padding-top: 130px;
 }
 .heading p{
@@ -129,7 +129,7 @@
   }
   .dev-school h1 {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #fff;
     font-family: "Libre Franklin";
     text-align: center;
@@ -152,7 +152,7 @@
 }
 .will-you-learn h2{
    padding: 80px 0 80px 90px;
-   font-size: 2.2rem;
+   font-size: 35px;
    font-weight: 400;
 }
 .will-you-learn p{
@@ -181,7 +181,7 @@
     height: 470px;
 }
 .heading-text{
-    font-size: 2.2rem;
+    font-size: 35px;
     font-family: 'Raleway';
     padding: 40px 0 0 70px;
     font-weight: 400;
@@ -239,7 +239,7 @@
 }
 .course-heading h3{
     font-family: 'Raleway';
-    font-size: 2.2rem;
+    font-size: 35px;
     font-weight: 400;
     padding: 30px 0 20px 100px;
     text-transform: capitalize;
@@ -287,12 +287,7 @@
     display: flex;
     justify-content: center;
 }
-/* .feedback-img img{
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-    position: absolute;
-} */
+
 .card{
     display: block;
     justify-content: center;
@@ -355,7 +350,7 @@
     background-color: #fff;
 }
 .companies h1{
-    font-size: 2.4rem;
+    font-size: 38px;
     font-family: 'Raleway';
     text-align: center;
     line-height: 50px;
@@ -425,7 +420,6 @@
 }
   .will-you-learn p{
     padding-left: 90px;
-    max-width: 690px;
  }
   .image img{
     height: 400px;
@@ -456,11 +450,4 @@
     height: 300px;
     width: 120%;
 }
-}
-
-@media(min-width: 470px){
-    .web-development{
-        height: 300px;
-        /* position: absolute; */
-    }
 }
