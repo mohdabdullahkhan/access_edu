@@ -25,7 +25,7 @@
 }
 .heading h2 {
   text-transform: capitalize;
-  font-size: 2.5rem;
+  font-size: 40px;
   padding-top: 130px;
 }
 .heading p {
@@ -128,11 +128,11 @@
 }
 .dev-school h1 {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 40px;
   color: #fff;
   font-family: "Libre Franklin";
   text-align: center;
-  max-width: 50%;
+  max-width: 800px;
   margin: 0 auto;
   padding-top: 40px;
   line-height: 60px;
@@ -151,7 +151,7 @@
 }
 .will-you-learn h2 {
   padding: 80px 0 80px 90px;
-  font-size: 2.2rem;
+  font-size: 35px;
   font-weight: 400;
 }
 .will-you-learn p {
@@ -180,7 +180,7 @@
   height: 470px;
 }
 .heading-text {
-  font-size: 2.2rem;
+  font-size: 35px;
   font-family: "Raleway";
   padding: 40px 0 0 70px;
   font-weight: 400;
@@ -238,7 +238,7 @@
 }
 .course-heading h3 {
   font-family: "Raleway";
-  font-size: 2.2rem;
+  font-size: 35px;
   font-weight: 400;
   padding: 30px 0 20px 100px;
   text-transform: capitalize;
@@ -343,6 +343,17 @@
   max-width: 500px;
   margin: 0 auto;
 }
+.card {
+  display: block;
+  justify-content: center;
+  width: 550px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0px 0px 16px #ff5f3f;
+  position: absolute;
+  margin-top: 110px;
+}
 
 /* companies section */
 
@@ -369,24 +380,40 @@
 }
 .fynsis {
   height: 150px;
-  width: 150px;
+  width: auto;
   position: relative;
 }
 .aiknowlogo {
   height: 100px;
-  width: 180px;
+  width: auto;
   position: relative;
 }
 .simplelogo {
   height: 60px;
-  width: 230px;
+  width: auto;
   position: relative;
 }
 
 .nexusinfo {
   height: 90px;
-  width: 190px;
+  width: auto;
   position: relative;
+}
+.companies {
+  height: 300px;
+  width: 100%;
+  background-color: #fff;
+}
+.companies h1 {
+  font-size: 38px;
+  font-family: "Raleway";
+  text-align: center;
+  line-height: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-top: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* media queries */
@@ -415,7 +442,6 @@
   }
   .will-you-learn p {
     padding-left: 90px;
-    max-width: 690px;
   }
   .image img {
     height: 400px;
@@ -442,3 +468,11 @@
     width: 120%;
   }
 }
+/* @media (max-width: 1440px) {
+  .dev-school {
+    width: 100%;
+  }
+  .dev-school h1 {
+    display: none;
+  }
+} */
