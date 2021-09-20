@@ -17,11 +17,7 @@
 .heading {
   text-align: center;
   font-family: "Raleway";
-  /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
   color: #fff;
-  /* position: absolute; */
 }
 .heading h2 {
   text-transform: capitalize;
@@ -40,7 +36,7 @@
 .container {
   background-color: #fff;
   box-shadow: 16px 16px 50px rgba(255, 95, 63, 0.25);
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   margin-top: 30px;
   position: relative;
@@ -77,7 +73,7 @@
 /* container section */
 
 .container1 {
-  margin: 10px 0 20px 0;
+  margin: 10px 0 30px 0;
   display: flex;
   justify-content: space-around;
 }
@@ -87,7 +83,7 @@
   font-size: 16px;
   font-family: "Raleway";
   font-weight: 600;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 .container1 p {
   padding-bottom: 5px;
@@ -109,7 +105,7 @@
 }
 .skills h3 {
   color: #16649f;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 40px 0;
   text-transform: capitalize;
 }
 
@@ -155,7 +151,7 @@
   font-weight: 400;
 }
 .will-you-learn p {
-  padding-left: 70px;
+  padding-left: 90px;
   max-width: 650px;
   line-height: 25px;
 }
@@ -182,7 +178,7 @@
 .heading-text {
   font-size: 35px;
   font-family: "Raleway";
-  padding: 40px 0 0 70px;
+  padding: 40px 0 0 90px;
   font-weight: 400;
 }
 .apply {
@@ -240,7 +236,7 @@
   font-family: "Raleway";
   font-size: 35px;
   font-weight: 400;
-  padding: 30px 0 20px 100px;
+  padding: 30px 0 20px 90px;
   text-transform: capitalize;
 }
 .course-section {
@@ -253,6 +249,7 @@
   font-weight: 400;
   text-transform: capitalize;
   line-height: 25px;
+  margin-left: -20px;
 }
 .course .surprises {
   text-transform: lowercase;
@@ -268,40 +265,35 @@
   font-family: "Raleway";
   font-size: 14px;
   margin-top: 70px;
-  margin-right: 90px;
+  margin-right: 280px;
 }
 .course-img img {
-  height: 200px;
-  width: 200px;
-  margin-top: -60px;
+  height: 230px;
+  width: 230px;
+  margin-top: -70px;
+  margin-left: -300px;
 }
 
 /* feedback section */
 
 .feedback {
-  height: 700px;
+  height: 620px;
   width: 100%;
   background-color: #16649f;
   position: relative;
   display: flex;
   justify-content: center;
 }
-/* .feedback-img img{
-    height: 200px;
-    width: 200px;
-    margin-top: 30px;
-    position: absolute;
-} */
 .card {
   display: block;
   justify-content: center;
   width: 550px;
-  height: 550px;
+  height: 500px;
   background-color: #fff;
   border-radius: 50px;
   box-shadow: 0px 0px 16px #ff5f3f;
   position: absolute;
-  margin-top: 110px;
+  margin-top: 80px;
 }
 .card-image {
   display: flex;
@@ -311,7 +303,6 @@
   height: 200px;
   width: 200px;
   margin-top: -50px;
-  /* position: absolute; */
 }
 .text {
   display: block;
@@ -327,13 +318,13 @@
 .text p {
   font-weight: 400;
 }
-.colon {
+/* .colon {
   font-size: 60px;
   color: #fd5f3c;
   margin-left: 30px;
-}
+} */
 .content {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .content p {
   text-align: center;
@@ -343,17 +334,7 @@
   max-width: 500px;
   margin: 0 auto;
 }
-.card {
-  display: block;
-  justify-content: center;
-  width: 550px;
-  height: 550px;
-  background-color: #fff;
-  border-radius: 50px;
-  box-shadow: 0px 0px 16px #ff5f3f;
-  position: absolute;
-  margin-top: 110px;
-}
+
 
 /* companies section */
 
@@ -363,16 +344,17 @@
   background-color: #fff;
 }
 .companies h1 {
-  font-size: 2.4rem;
+  font-size: 38px;
   font-family: "Raleway";
   text-align: center;
   line-height: 50px;
   font-weight: 400;
   text-transform: capitalize;
-  padding-top: 20px;
+  padding: 20px 0 10px 0;
   max-width: 600px;
   margin: 0 auto;
 }
+
 .companies-logo {
   display: flex;
   justify-content: space-evenly;
@@ -399,22 +381,8 @@
   width: auto;
   position: relative;
 }
-.companies {
-  height: 300px;
-  width: 100%;
-  background-color: #fff;
-}
-.companies h1 {
-  font-size: 38px;
-  font-family: "Raleway";
-  text-align: center;
-  line-height: 50px;
-  font-weight: 400;
-  text-transform: capitalize;
-  padding-top: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
+
+
 
 /* media queries */
 
@@ -425,10 +393,10 @@
     /* position: fixed; */
   }
   .container {
-    width: 110%;
+    width: 95%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 120px;
   }
   .dev-school {
     width: 120%;
@@ -439,9 +407,6 @@
   }
   .learn {
     height: 430px;
-  }
-  .will-you-learn p {
-    padding-left: 90px;
   }
   .image img {
     height: 400px;
@@ -459,6 +424,14 @@
     width: 120%;
     height: 240px;
   }
+  .course-img img {
+    height: 220px;
+    width: 220px;
+  }
+  
+.course p {
+  margin-left: 20px;
+}
   .feedback {
     width: 120%;
   }
