@@ -27,7 +27,7 @@
 .heading p {
   text-transform: uppercase;
   font-family: "Libre Franklin";
-  font-size: 1.3rem;
+  font-size: 20px;
   padding-top: 30px;
 }
 
@@ -151,6 +151,7 @@
   font-weight: 400;
 }
 .will-you-learn p {
+
   padding-left: 90px;
   max-width: 650px;
   line-height: 25px;
@@ -252,6 +253,7 @@
   font-weight: 400;
   text-transform: capitalize;
   line-height: 25px;
+  margin-left: 70px;
 }
 .course .surprises {
   text-transform: lowercase;
@@ -388,7 +390,7 @@
 
 /* media queries */
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .web-development {
     width: 120%;
     height: 350px;
