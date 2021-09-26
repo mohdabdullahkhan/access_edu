@@ -233,6 +233,10 @@
   height: 250px;
   position: relative;
 }
+.course-section {
+  display: flex;
+  justify-content: space-around;
+}
 .course-heading h3 {
   font-family: "Raleway";
   font-size: 35px;
@@ -240,20 +244,13 @@
   padding: 30px 0 20px 90px;
   text-transform: capitalize;
 }
-.course-section {
-  display: flex;
-  justify-content: space-around;
-}
-.course{
-  margin-left: -95px;
-}
 .course p {
   font-family: "Raleway";
   font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 25px;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 .course .surprises {
   text-transform: lowercase;
@@ -269,13 +266,14 @@
   font-family: "Raleway";
   font-size: 14px;
   margin-top: 70px;
-  margin-right: 220px;
+  margin-left: 20px;
+  /* margin-right: 220px; */
 }
 .course-img img {
   height: 230px;
   width: 230px;
   margin-top: -70px;
-  margin-left: -300px;
+  margin-right: 60px;
 }
 
 /* feedback section */
@@ -434,10 +432,10 @@
   }
   
 .course p {
-  margin-left: 100px;
+  margin-left: 15px;
 }
 .career{
-  margin-left: -20px;
+  margin-left: 10px;
 }
   .feedback {
     width: 120%;
