@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* banner section */
@@ -151,7 +152,6 @@
   font-weight: 400;
 }
 .will-you-learn p {
-
   padding-left: 90px;
   max-width: 650px;
   line-height: 25px;
@@ -337,7 +337,6 @@
   margin: 0 auto;
 }
 
-
 /* companies section */
 
 .companies {
@@ -384,8 +383,6 @@
   position: relative;
 }
 
-
-
 /* media queries */
 
 @media (max-width: 1024px) {
@@ -430,13 +427,13 @@
     height: 220px;
     width: 220px;
   }
-  
-.course p {
-  margin-left: 15px;
-}
-.career{
-  margin-left: 10px;
-}
+
+  .course p {
+    margin-left: 15px;
+  }
+  .career {
+    margin-left: 10px;
+  }
   .feedback {
     width: 120%;
   }
@@ -445,4 +442,75 @@
     height: 300px;
     width: 120%;
   }
+}
+/* footer */
+.contact-us-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 55px;
+  padding-top: 40px;
+}
+
+.bg-color2 {
+  background-color: rgba(1, 24, 40, 1);
+  height: 347px;
+}
+.contact-us-section-1 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  line-height: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: -130px;
+}
+
+.contact-us-section-2 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  line-height: 45px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.follow-text {
+  font-family: "Raleway", sans-serif;
+  color: rgba(227, 227, 227, 1);
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.instagram-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+.linkdin-image {
+  width: 25px;
+  height: 25px;
+  margin-right: 25px;
+}
+.twitter-image {
+  width: 25px;
+  height: 25px;
+}
+
+.last-text {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+}
+
+.access-text1 {
+  font-family: "Comfortaa";
+}
+
+.access-text2 {
+  color: #fd5f3c;
+  font-family: "Comfortaa";
+  margin-right: 6px;
+  margin-left: -5px;
+  font-weight: 300;
 }
