@@ -159,11 +159,17 @@
 .paragraph1 {
   margin: -35px 0 30px 0;
 }
-.image {
+.desktop-image {
   width: 45%;
 }
-.image img {
-  padding-top: 30px;
+.desktop-image img {
+  padding-top: 20px;
+  height: 410px;
+  width: auto;
+  margin-left: 60px;
+}
+.mobile-image{
+  display: none;
 }
 
 /* apply section */
@@ -186,6 +192,10 @@
   display: flex;
   justify-content: space-around;
   margin: 30px 0 30px 0;
+}
+.apply img{
+  height: 150px;
+  width: 150px;
 }
 .text-1 {
   text-align: center;
@@ -445,4 +455,200 @@
     height: 300px;
     width: 120%;
   }
+}
+@media(max-width: 475px) {
+  .web-development {
+    width: 210%;
+    height: 370px;
+  }
+  .container {
+    width: 170%;
+    /* margin: 0 auto; */
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+  .dev-school {
+    height: 230px;
+    width: 210%;
+  }
+  .dev-school h1 {
+    font-size: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+    line-height: 60px;
+  }
+  .learn {
+    display: block;
+    width: 210%;
+    height: 150vh;
+  }
+  .will-you-learn {
+    width: 100%;
+  }
+  .will-you-learn h2 {
+    padding: 80px 0 80px 0px;
+    text-align: center;
+    font-size: 45px;
+  }
+  .desktop-image{
+    display: none;
+  }
+  .mobile-image{
+    display: block;
+    margin-left: 120px;
+    height: auto;
+  }
+  .will-you-learn p {
+    padding-left: 90px;
+    max-width: 750px;
+    line-height: 35px;
+    font-size: 27px;
+  }
+  .paragraph1 {
+    margin: 45px 0 30px 0;
+  }
+
+
+  .Apply-section {
+    width: 210%;
+    height: 90vh;
+  }
+  .heading-text {
+    font-size: 45px;
+    padding: 40px 0 20px 0;
+    text-align: center;
+  }
+  .apply img{
+    height: 250px;
+    width: 250px;
+  }
+  .text-1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .text-2 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0 3px 0;
+  }
+  .apply p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .apply-here {
+    height: 55px;
+    width: 300px;
+    font-size: 18px;
+  }
+  
+
+  .course-ad-ons {
+    width: 210%;
+    height: 250px;
+  }
+  .course-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* .course-heading h3 {
+    font-family: "Raleway";
+    font-size: 35px;
+    font-weight: 400;
+    padding: 30px 0 20px 90px;
+    text-transform: capitalize;
+  } */
+  /* .course p {
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-left: 10px;
+  } */
+  /* .course .surprises {
+    text-transform: lowercase;
+  } */
+  /* .career {
+    height: 45px;
+    width: 200px;
+    background-color: #fd5f3c;
+    border: 1px solid #fd5f3c;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 14px;
+    margin-top: 70px;
+    margin-left: 20px;
+    /* margin-right: 220px; */
+  } */
+  /* .course-img img {
+    height: 230px;
+    width: 230px;
+    margin-top: -70px;
+    margin-right: 60px;
+  } */
+  
+
+
+
+  .feedback {
+    height: 620vh;
+    width: 50%;
+    background-color: #16649f;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    display: block;
+    justify-content: center;
+    width: 750px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 16px #ff5f3f;
+    position: absolute;
+    margin-top: 80px;
+  }
+  /* .card-image {
+    display: flex;
+    justify-content: center;
+  } */
+  /* .card-image img {
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+  } */
+  /* .text {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Raleway";
+    font-size: 18px;
+  } */
+  /* .text h3 {
+    font-weight: 800;
+    padding-bottom: 8px;
+  } */
+  /* .text p {
+    font-weight: 400;
+  }
+   */
+  /* .content {
+    margin-top: 50px;
+  } */
+  /* .content p {
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+  } */
+  
+
+
 }
