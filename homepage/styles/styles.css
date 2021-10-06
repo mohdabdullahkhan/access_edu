@@ -157,7 +157,7 @@ border: none;
 
 
 .banner-image{
-     background-image: url(/homepage/images/Rectangle\ 3.png);
+     background-image: url(/images/Rectangle\ 3.png);
   position: relative;
   text-align: center;
   background-repeat: no-repeat;
@@ -244,7 +244,7 @@ height: 56px;
 
 .why-access{
     width: 100%;
-background-image: url(/homepage/images/Rectangle\ 4.png);
+background-image: url(/images/Rectangle\ 4.png);
 position: relative;
 text-align: center;
 background-repeat: no-repeat;
@@ -588,7 +588,7 @@ list-style: none;
 }
 
 .bullets ul{
-    list-style-image: url(/homepage/images/Ellipse\ 2.png);
+    list-style-image: url(/images/Ellipse\ 2.png);
     background-size: auto;
     background-repeat: no-repeat;
     padding: 20px;
@@ -757,7 +757,7 @@ text-align: left;
 
 
 .bullets ul{
-    list-style-image: url(/homepage/images/Ellipse\ 2.png);
+    list-style-image: url(/images/Ellipse\ 2.png);
     background-size: auto;
     background-repeat: no-repeat;
     padding: 20px;
@@ -846,7 +846,7 @@ color: white;
 
 .online{
     width: 100%;
-    background-image: url(/homepage/images/onlineoffline.png);
+    background-image: url(/images/onlineoffline.png);
     position: relative;
     /* text-align: center; */
     background-repeat: no-repeat;
@@ -907,7 +907,7 @@ color: #011728;
     }
     
     .online ul{
-        list-style-image: url(/homepage/images/circle-check.png);
+        list-style-image: url(/images/circle-check.png);
         background-size: auto;
         background-repeat: no-repeat;
         padding: 20px;
@@ -1048,7 +1048,7 @@ color: #011728;
     }
     
     .online ul{
-        list-style-image: url(/homepage/images/circle-check.png);
+        list-style-image: url(/images/circle-check.png);
         background-size: auto;
         background-repeat: no-repeat;
         padding: 20px;
@@ -1178,7 +1178,7 @@ color: #011728;
 
    .apply{
        width: 100%;
-    background-image: url(/homepage/images/Group\ 329\ \(2\).png);
+    background-image: url(/images/Group\ 329\ \(2\).png);
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
@@ -1295,7 +1295,7 @@ color: #011728;
     
    .apply{
     width: 100%;
- background-image: url(/homepage/images/polygon1.png);
+ background-image: url(/images/polygon1.png);
  position: relative;
  text-align: center;
  background-repeat: no-repeat;
@@ -1459,7 +1459,7 @@ color: #FFFFFF;
 
 .career-support{
     width: 100%;
-    background-image: url(/homepage/images/Rectangle\ 18.png);
+    background-image: url(/images/Rectangle\ 18.png);
     position: relative;
     /* text-align: center; */
     background-repeat: no-repeat;
@@ -1552,7 +1552,7 @@ color: #FFFFFF;
  
  .career-support{
      width: 100%;
-     background-image: url(/homepage/images/Rectangle\ 18.png);
+     background-image: url(/images/Rectangle\ 18.png);
      position: relative;
      /* text-align: center; */
      background-repeat: no-repeat;
@@ -1568,7 +1568,7 @@ color: #FFFFFF;
 
 .faizan{
     width: 100%;
-    background-image: url(/homepage/images/bubbles1.png);
+    background-image: url(/images/bubbles1.png);
     position: relative;
     /* text-align: center; */
     background-repeat: no-repeat;
@@ -1650,7 +1650,7 @@ text-align: left;
     
 .faizan{
     width: 100%;
-    background-image: url(/homepage/images/Group\ 330.png);
+    background-image: url(/images/Group\ 330.png);
     position: relative;
     /* text-align: center; */
     background-repeat: no-repeat;
@@ -1736,7 +1736,7 @@ margin-left: 90px;
 
 .joc {
     width: 100%;
-    background-image: url(/homepage/images/blue-rectangle.png);
+    background-image: url(/images/blue-rectangle.png);
     position: relative;
     text-align: center;
     background-repeat: no-repeat;
